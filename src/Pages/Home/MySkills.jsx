@@ -12,7 +12,8 @@ export default function MySkills(){
                     <div key={index}
                     className="skills--section--card">
                         <div className="skills--section-img">
-                            <img src={item.src} alt="Product Chain"/>
+                            <img className="skills--section--img" 
+                             src={item.src} alt="Product Chain"/>
                         </div>
                         <div className="skills--section--card-content">
                             <h3 className="skills--section--title">

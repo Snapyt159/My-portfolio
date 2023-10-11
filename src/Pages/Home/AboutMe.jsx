@@ -10,8 +10,21 @@ export default function AboutMe(){
                     <h1 className="skills-section--heading">
                         About Me
                     </h1>
-                    <p className="hero--section-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente nisi officiis ratione placeat quos asperiores, quam incidunt animi culpa beatae id voluptates qui omnis, similique aut porro adipisci, voluptatum neque?</p>
-                    <p className="hero--section-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente nisi officiis ratione placeat quos asperiores, quam incidunt animi culpa beatae id voluptates qui omnis, similique aut porro adipisci, voluptatum neque?</p>
+                    <p className="hero--section-description">
+                        Hi, I'm Jose Fernando Monterrosa Castro from El Salvador I am currently working on personal projects that includes frameworks like React.js,Vue.js and Angular.js. Passionate for the computers, it's capacities, possibilities and potential. Also I'm interested in learning Backend Development as well
+                    </p>
+                    <p className="hero--section-description">
+                    
+                    Apart from coding, some other activities that I love to do!
+                    <br/>
+                    <ul>
+                    <li>Listening to music</li>
+                    <li>Playing Games</li>
+                    <li>Workout</li>        
+                    </ul>
+                    
+
+                    </p>
                 </div>
             </div>
 
