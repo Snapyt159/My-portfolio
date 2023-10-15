@@ -11,9 +11,9 @@ export default function HeroSection() {
                     Developer
                 </h1>
                 <p className="hero--section-description">
-                    Apasionado a la tecnologia 
+                    Passionate about technology
                     <br /> 
-                    y con el objetivo de revolucionar y aportar a la industria!
+                    and with the aim of evolving my technological skills
                 </p>
             </div>
             <button className="btn btn-primary">Get In Touch</button>
