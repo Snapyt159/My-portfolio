@@ -333,6 +333,15 @@ h3 {
     height: 100%;
     border-radius: 20px;
 }
+.elemento-a-revelar {
+  opacity: 0;
+  transition: opacity 1s; /* Agrega una transición suave de 1 segundo */
+}
+.elemento-a-revelar.revelado {
+  opacity: 1;
+}
+
+
 /*About Us Ends*/
 
 /*My Portfolio Starts*/

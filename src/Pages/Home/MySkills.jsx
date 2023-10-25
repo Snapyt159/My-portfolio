@@ -1,7 +1,9 @@
 import data from "../../data/index.json";
+import { Fade } from "react-awesome-reveal";
 
 export default function MySkills(){
     return(
+        <Fade>
         <section className="skills--section" id="mySkills">
             <div className="portfolio--container">
                 <p className="section--title">My Skills</p>
@@ -27,5 +29,6 @@ export default function MySkills(){
                 ))}
             </div>
         </section>
+        </Fade>
     )
 }

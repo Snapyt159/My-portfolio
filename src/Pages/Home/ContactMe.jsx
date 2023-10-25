@@ -1,5 +1,11 @@
+import react from "react";
+import { Fade } from "react-awesome-reveal";
+
+
 export default function ContactMe() {
-    return <section id="Contact" className="contact--section">
+    return (
+        <Fade>
+    <section id="Contact" className="contact--section">
           <div>
             <p className="sub-title">Get In Touch</p>
             <h2>Contact Me</h2>
@@ -77,4 +83,6 @@ export default function ContactMe() {
                 </div>
           </form>
         </section>
+        </Fade> 
+    );
 }
